@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA691B2315E2EFB500332CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2215E2EFB500332CA9 /* UIKit.framework */; };
+		BA691B2515E2EFB500332CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2415E2EFB500332CA9 /* Foundation.framework */; };
+		BA691B2715E2EFB500332CA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2615E2EFB500332CA9 /* CoreGraphics.framework */; };
+		BA691B2915E2EFB500332CA9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2815E2EFB500332CA9 /* CoreData.framework */; };
+		BA691B2F15E2EFB500332CA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA691B2D15E2EFB500332CA9 /* InfoPlist.strings */; };
+		BA691B3115E2EFB500332CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA691B3015E2EFB500332CA9 /* main.m */; };
+		BA691B3515E2EFB500332CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA691B3415E2EFB500332CA9 /* AppDelegate.m */; };
+		BA691B3815E2EFB600332CA9 /* PlantAdventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA691B3615E2EFB500332CA9 /* PlantAdventure.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA691B1E15E2EFB500332CA9 /* PlantAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA691B2215E2EFB500332CA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA691B2415E2EFB500332CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA691B2615E2EFB500332CA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA691B2815E2EFB500332CA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA691B2C15E2EFB500332CA9 /* PlantAdventure-Info.plist */ = {isa = PBXFileReference; path = "PlantAdventure-Info.plist"; sourceTree = "<group>"; };
+		BA691B2E15E2EFB500332CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA691B3015E2EFB500332CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA691B3215E2EFB500332CA9 /* PlantAdventure-Prefix.pch */ = {isa = PBXFileReference; path = "PlantAdventure-Prefix.pch"; sourceTree = "<group>"; };
+		BA691B3315E2EFB500332CA9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA691B3415E2EFB500332CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA691B3715E2EFB600332CA9 /* PlantAdventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlantAdventure.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA691B1B15E2EFB500332CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA691B2315E2EFB500332CA9 /* UIKit.framework in Frameworks */,
+				BA691B2515E2EFB500332CA9 /* Foundation.framework in Frameworks */,
+				BA691B2715E2EFB500332CA9 /* CoreGraphics.framework in Frameworks */,
+				BA691B2915E2EFB500332CA9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA691B1315E2EFB500332CA9 = {
+			isa = PBXGroup;
+			children = (
+				BA691B2A15E2EFB500332CA9 /* PlantAdventure */,
+				BA691B2115E2EFB500332CA9 /* Frameworks */,
+				BA691B1F15E2EFB500332CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA691B1F15E2EFB500332CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA691B1E15E2EFB500332CA9 /* PlantAdventure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA691B2115E2EFB500332CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA691B2215E2EFB500332CA9 /* UIKit.framework */,
+				BA691B2415E2EFB500332CA9 /* Foundation.framework */,
+				BA691B2615E2EFB500332CA9 /* CoreGraphics.framework */,
+				BA691B2815E2EFB500332CA9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA691B2A15E2EFB500332CA9 /* PlantAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				BA691B3315E2EFB500332CA9 /* AppDelegate.h */,
+				BA691B3415E2EFB500332CA9 /* AppDelegate.m */,
+				BA691B3615E2EFB500332CA9 /* PlantAdventure.xcdatamodeld */,
+				BA691B2B15E2EFB500332CA9 /* Supporting Files */,
+			);
+			path = PlantAdventure;
+			sourceTree = "<group>";
+		};
+		BA691B2B15E2EFB500332CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA691B2C15E2EFB500332CA9 /* PlantAdventure-Info.plist */,
+				BA691B2D15E2EFB500332CA9 /* InfoPlist.strings */,
+				BA691B3015E2EFB500332CA9 /* main.m */,
+				BA691B3215E2EFB500332CA9 /* PlantAdventure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA691B1D15E2EFB500332CA9 /* PlantAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA691B3B15E2EFB600332CA9 /* Build configuration list for PBXNativeTarget "PlantAdventure" */;
+			buildPhases = (
+				BA691B1A15E2EFB500332CA9 /* Sources */,
+				BA691B1B15E2EFB500332CA9 /* Frameworks */,
+				BA691B1C15E2EFB500332CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlantAdventure;
+			productName = PlantAdventure;
+			productReference = BA691B1E15E2EFB500332CA9 /* PlantAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA691B1515E2EFB500332CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BA691B1815E2EFB500332CA9 /* Build configuration list for PBXProject "PlantAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA691B1315E2EFB500332CA9;
+			productRefGroup = BA691B1F15E2EFB500332CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA691B1D15E2EFB500332CA9 /* PlantAdventure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA691B1C15E2EFB500332CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA691B2F15E2EFB500332CA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA691B1A15E2EFB500332CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA691B3115E2EFB500332CA9 /* main.m in Sources */,
+				BA691B3515E2EFB500332CA9 /* AppDelegate.m in Sources */,
+				BA691B3815E2EFB600332CA9 /* PlantAdventure.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA691B2D15E2EFB500332CA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA691B2E15E2EFB500332CA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA691B3915E2EFB600332CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA691B3A15E2EFB600332CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA691B3C15E2EFB600332CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlantAdventure/PlantAdventure-Prefix.pch";
+				INFOPLIST_FILE = "PlantAdventure/PlantAdventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA691B3D15E2EFB600332CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlantAdventure/PlantAdventure-Prefix.pch";
+				INFOPLIST_FILE = "PlantAdventure/PlantAdventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA691B1815E2EFB500332CA9 /* Build configuration list for PBXProject "PlantAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA691B3915E2EFB600332CA9 /* Debug */,
+				BA691B3A15E2EFB600332CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA691B3B15E2EFB600332CA9 /* Build configuration list for PBXNativeTarget "PlantAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA691B3C15E2EFB600332CA9 /* Debug */,
+				BA691B3D15E2EFB600332CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA691B3615E2EFB500332CA9 /* PlantAdventure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA691B3715E2EFB600332CA9 /* PlantAdventure.xcdatamodel */,
+			);
+			currentVersion = BA691B3715E2EFB600332CA9 /* PlantAdventure.xcdatamodel */;
+			path = PlantAdventure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA691B1515E2EFB500332CA9 /* Project object */;
+}
