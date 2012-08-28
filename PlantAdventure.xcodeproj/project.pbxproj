@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA08351D15EC484500B2EF77 /* PlantOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = BA08351C15EC484500B2EF77 /* PlantOverlay.m */; };
 		BA691B2315E2EFB500332CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2215E2EFB500332CA9 /* UIKit.framework */; };
 		BA691B2515E2EFB500332CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2415E2EFB500332CA9 /* Foundation.framework */; };
 		BA691B2715E2EFB500332CA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691B2615E2EFB500332CA9 /* CoreGraphics.framework */; };
@@ -15,21 +16,40 @@
 		BA691B3115E2EFB500332CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA691B3015E2EFB500332CA9 /* main.m */; };
 		BA691B3515E2EFB500332CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA691B3415E2EFB500332CA9 /* AppDelegate.m */; };
 		BA691B3815E2EFB600332CA9 /* PlantAdventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA691B3615E2EFB500332CA9 /* PlantAdventure.xcdatamodeld */; };
+		BA691B4815E2F0C500332CA9 /* Plant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA691B4615E2F0C500332CA9 /* Plant.xcdatamodeld */; };
+		BA691B4F15E2F27000332CA9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BA691B4E15E2F27000332CA9 /* Default.png */; };
+		BA691B5615E2F39B00332CA9 /* PlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA691B5515E2F39B00332CA9 /* PlantViewController.m */; };
+		BA7367B215E3037100BF93C6 /* buttonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7367B115E3037100BF93C6 /* buttonBG.png */; };
+		BACD152615E30D4E00A69CE3 /* PlantData.m in Sources */ = {isa = PBXBuildFile; fileRef = BACD152515E30D4E00A69CE3 /* PlantData.m */; };
+		BAF4AB4015EC3B2900A479E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF4AB3F15EC3B2900A479E9 /* MapKit.framework */; };
+		BAF4AB4715EC3DF000A479E9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF4AB4615EC3DF000A479E9 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA08351B15EC484500B2EF77 /* PlantOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantOverlay.h; sourceTree = "<group>"; };
+		BA08351C15EC484500B2EF77 /* PlantOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantOverlay.m; sourceTree = "<group>"; };
 		BA691B1E15E2EFB500332CA9 /* PlantAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA691B2215E2EFB500332CA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BA691B2415E2EFB500332CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA691B2615E2EFB500332CA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BA691B2815E2EFB500332CA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		BA691B2C15E2EFB500332CA9 /* PlantAdventure-Info.plist */ = {isa = PBXFileReference; path = "PlantAdventure-Info.plist"; sourceTree = "<group>"; };
+		BA691B2C15E2EFB500332CA9 /* PlantAdventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlantAdventure-Info.plist"; sourceTree = "<group>"; };
 		BA691B2E15E2EFB500332CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA691B3015E2EFB500332CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BA691B3215E2EFB500332CA9 /* PlantAdventure-Prefix.pch */ = {isa = PBXFileReference; path = "PlantAdventure-Prefix.pch"; sourceTree = "<group>"; };
-		BA691B3315E2EFB500332CA9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA691B3215E2EFB500332CA9 /* PlantAdventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlantAdventure-Prefix.pch"; sourceTree = "<group>"; };
+		BA691B3315E2EFB500332CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA691B3415E2EFB500332CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA691B3715E2EFB600332CA9 /* PlantAdventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlantAdventure.xcdatamodel; sourceTree = "<group>"; };
+		BA691B4715E2F0C500332CA9 /* Plant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Plant.xcdatamodel; sourceTree = "<group>"; };
+		BA691B4E15E2F27000332CA9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		BA691B5415E2F39B00332CA9 /* PlantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantViewController.h; sourceTree = "<group>"; };
+		BA691B5515E2F39B00332CA9 /* PlantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantViewController.m; sourceTree = "<group>"; };
+		BA7367B115E3037100BF93C6 /* buttonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBG.png; sourceTree = "<group>"; };
+		BACD152415E30D4E00A69CE3 /* PlantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantData.h; sourceTree = "<group>"; };
+		BACD152515E30D4E00A69CE3 /* PlantData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantData.m; sourceTree = "<group>"; };
+		BAF4AB3F15EC3B2900A479E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BAF4AB4515EC3DF000A479E9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BAF4AB4615EC3DF000A479E9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF4AB4015EC3B2900A479E9 /* MapKit.framework in Frameworks */,
 				BA691B2315E2EFB500332CA9 /* UIKit.framework in Frameworks */,
 				BA691B2515E2EFB500332CA9 /* Foundation.framework in Frameworks */,
 				BA691B2715E2EFB500332CA9 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +71,7 @@
 		BA691B1315E2EFB500332CA9 = {
 			isa = PBXGroup;
 			children = (
+				BAF4AB3F15EC3B2900A479E9 /* MapKit.framework */,
 				BA691B2A15E2EFB500332CA9 /* PlantAdventure */,
 				BA691B2115E2EFB500332CA9 /* Frameworks */,
 				BA691B1F15E2EFB500332CA9 /* Products */,
@@ -78,8 +100,17 @@
 		BA691B2A15E2EFB500332CA9 /* PlantAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				BA691B5415E2F39B00332CA9 /* PlantViewController.h */,
+				BA691B5515E2F39B00332CA9 /* PlantViewController.m */,
+				BAF4AB4515EC3DF000A479E9 /* MapViewController.h */,
+				BAF4AB4615EC3DF000A479E9 /* MapViewController.m */,
+				BA08351B15EC484500B2EF77 /* PlantOverlay.h */,
+				BA08351C15EC484500B2EF77 /* PlantOverlay.m */,
+				BACD152415E30D4E00A69CE3 /* PlantData.h */,
+				BACD152515E30D4E00A69CE3 /* PlantData.m */,
 				BA691B3315E2EFB500332CA9 /* AppDelegate.h */,
 				BA691B3415E2EFB500332CA9 /* AppDelegate.m */,
+				BA691B4615E2F0C500332CA9 /* Plant.xcdatamodeld */,
 				BA691B3615E2EFB500332CA9 /* PlantAdventure.xcdatamodeld */,
 				BA691B2B15E2EFB500332CA9 /* Supporting Files */,
 			);
@@ -89,6 +120,8 @@
 		BA691B2B15E2EFB500332CA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA7367B115E3037100BF93C6 /* buttonBG.png */,
+				BA691B4E15E2F27000332CA9 /* Default.png */,
 				BA691B2C15E2EFB500332CA9 /* PlantAdventure-Info.plist */,
 				BA691B2D15E2EFB500332CA9 /* InfoPlist.strings */,
 				BA691B3015E2EFB500332CA9 /* main.m */,
@@ -148,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA691B2F15E2EFB500332CA9 /* InfoPlist.strings in Resources */,
+				BA691B4F15E2F27000332CA9 /* Default.png in Resources */,
+				BA7367B215E3037100BF93C6 /* buttonBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +196,11 @@
 				BA691B3115E2EFB500332CA9 /* main.m in Sources */,
 				BA691B3515E2EFB500332CA9 /* AppDelegate.m in Sources */,
 				BA691B3815E2EFB600332CA9 /* PlantAdventure.xcdatamodeld in Sources */,
+				BA691B4815E2F0C500332CA9 /* Plant.xcdatamodeld in Sources */,
+				BA691B5615E2F39B00332CA9 /* PlantViewController.m in Sources */,
+				BACD152615E30D4E00A69CE3 /* PlantData.m in Sources */,
+				BAF4AB4715EC3DF000A479E9 /* MapViewController.m in Sources */,
+				BA08351D15EC484500B2EF77 /* PlantOverlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +302,7 @@
 				BA691B3D15E2EFB600332CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -273,6 +314,16 @@
 			);
 			currentVersion = BA691B3715E2EFB600332CA9 /* PlantAdventure.xcdatamodel */;
 			path = PlantAdventure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		BA691B4615E2F0C500332CA9 /* Plant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA691B4715E2F0C500332CA9 /* Plant.xcdatamodel */,
+			);
+			currentVersion = BA691B4715E2F0C500332CA9 /* Plant.xcdatamodel */;
+			path = Plant.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

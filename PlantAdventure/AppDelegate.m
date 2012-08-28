@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PlantViewController.h"
 
 @implementation AppDelegate
 
@@ -26,11 +27,55 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+  self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+  [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+
+  UIImageView *imageView=[[[UIImageView alloc]initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+  imageView.image = [UIImage imageNamed:@"Default.png"];
+  
+  PlantViewController *plantViewController = [[PlantViewController alloc] initWithStyle:UITableViewStylePlain];
+  [plantViewController.view setFrame:[[UIScreen mainScreen] bounds]];        
+  
+  nc = [[UINavigationController alloc] initWithRootViewController:plantViewController];
+  nc.navigationBarHidden = NO;
+  nc.navigationBar.tintColor = [UIColor colorWithRed:86/255.0 green:130/255.0 blue:251/255.0 alpha:1.0];
+  nc.navigationBar.titleTextAttributes = 
+   [NSDictionary dictionaryWithObjectsAndKeys:
+    [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0], 
+    UITextAttributeTextColor, 
+    [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8], 
+    UITextAttributeTextShadowColor, 
+    [NSValue valueWithUIOffset:UIOffsetMake(0, -1)], 
+    UITextAttributeTextShadowOffset, 
+    [UIFont fontWithName:@"Helvetica" size:22.0], 
+    UITextAttributeFont, 
+    nil];
+
+  
+  UIButton *but = [[UIButton alloc] init];
+  but.frame = CGRectMake(80, 380, 160, 50);
+
+  but.titleLabel.font = [UIFont fontWithName:@"Futura" size:12.0];
+  [but setTitleColor:[UIColor colorWithRed:86/255.0 green:130/255.0 blue:251/255.0 alpha:1.0] forState:UIControlStateNormal];
+
+  [but setTitle:@"Plant Adventure" forState:UIControlStateNormal];
+  but.backgroundColor = [UIColor clearColor];
+
+
+  [but setBackgroundImage:[UIImage imageNamed:@"buttonBG.png"] forState:UIControlStateNormal];
+  [but addTarget:self action:@selector(showNavigationController:) forControlEvents:UIControlEventTouchUpInside];
+  
+  [self.window addSubview:nc.view];
+  [self.window addSubview:imageView];
+  [self.window addSubview:but];
+  [self.window makeKeyAndVisible];
+  return YES;
+
+}
+
+-(void)showNavigationController:(id)sender
+{
+  [self.window bringSubviewToFront:nc.view];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
